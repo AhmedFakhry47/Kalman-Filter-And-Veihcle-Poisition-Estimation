@@ -9,4 +9,4 @@ Testing the kalman filter with a very simple example which is :
 -Matplot Library to plot Estimated states vs GroundTruth
 
 
-Format: ![Estimated states vs GT](https://drive.google.com/file/d/1lGLiiIqYSXz_36EQfAnWORO208aOxviM/view?usp=sharing)
+![Estimated states vs GT](https://drive.google.com/file/d/1lGLiiIqYSXz_36EQfAnWORO208aOxviM/view?usp=sharing)
