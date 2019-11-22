@@ -11,10 +11,10 @@ Project is divided into two files: <br/>
 1-Kalman Filter Code <br/>
 2-Test code  <br/>
 
-Test Code is meant to do three main things : 
-1-Generat GroundTruth Data for the above scenario 
-2-Test Kalman Filter ( Determine estimated values of position by Kalman Filter)
-3-Determine RMSE between estimated states and ground truth values
+Test Code is meant to do three main things : <br/>
+1-Generat GroundTruth Data for the above scenario <br/>
+2-Test Kalman Filter ( Determine estimated values of position by Kalman Filter) <br/>
+3-Determine RMSE between estimated states and ground truth values <br/>
 
 # Plot
 ## GroundTruth Data Vs Sensor Measurements
