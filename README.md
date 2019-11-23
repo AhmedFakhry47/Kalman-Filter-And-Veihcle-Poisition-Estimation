@@ -1,12 +1,11 @@
 # Kalman-Filter-And-Veihcle-Poisition-Estimation
 
-Intro 
- The Kalman Filter is the optimal linear estimate for linear system models with additive independent white noise in both<br/>
+The Kalman Filter is the optimal linear estimate for linear system models with additive independent white noise in both<br/>
 the transition and the measurement systems<br/>
 
-Job to be done 
-Testing the kalman filter with a very simple example which is : <br/>
--A veihcle that is moving on straight rails, it's initially stationary at position zero <br/>
+ 
+The code is meant to Test the kalman filter in the following scenario : <br/>
+-A veihcle moves on straight rails and it's initially stationary at position zero <br/>
 -There are two state variables ( Position x , Velocity x ) and this simplification is for having a linear system <br/>
 
 # Dependencies
