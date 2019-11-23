@@ -1,4 +1,10 @@
 # Kalman-Filter-And-Veihcle-Poisition-Estimation
+
+##Intro 
+ The Kalman Filter is the optimal linear estimate for linear system models with additive independent white noise in both<br/>
+the transition and the measurement systems<br/>
+
+##Job to be done 
 Testing the kalman filter with a very simple example which is : <br/>
 -A veihcle that is moving on straight rails, it's initially stationary at position zero <br/>
 -There are two state variables ( Position x , Velocity x ) and this simplification is for having a linear system <br/>
@@ -17,8 +23,8 @@ Test Code is meant to do three main things : <br/>
 3-Determine RMSE between estimated states and ground truth values <br/>
 
 # Plot
-## GroundTruth Data Vs Sensor Measurements
+# GroundTruth Data Vs Sensor Measurements
 ![SensorsVsGT-DATA](https://user-images.githubusercontent.com/44531149/69463045-579ceb80-0d83-11ea-846f-5651b2f89622.png)
 
-## Estimated positions by Kalman filter Vs Ground Truth positions at each discrete time step
+# Estimated positions by Kalman filter Vs Ground Truth positions at each discrete time step
 ![EstimatedStatesVsGT-](https://user-images.githubusercontent.com/44531149/69463046-58358200-0d83-11ea-814f-0996c0dde87b.png)
