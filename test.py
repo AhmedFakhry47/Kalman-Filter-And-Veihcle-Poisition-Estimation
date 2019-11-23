@@ -102,7 +102,8 @@ def test(GT,sens_meas):
     plt.show()
 
     #Print RMSE value of kalman filter state estimations
-    print(RMSE(GT[0][:],estimated_states[0][:]))
+    print('RMSE value when using kalman filter : ',RMSE(GT[0][:],estimated_states[0][:]))
+    print('RMSE value wihtout kalman filter : ',RMSE(GT[0][:],sens_meas[0][:]))
 if __name__ == "__main__":
     GT,Z= generate_data()
     test(GT,Z)
